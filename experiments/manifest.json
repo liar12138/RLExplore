@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "E0_reactive_0",
+    "suite": "E0",
+    "backbone": "reactive",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=reactive seed=0 run_dir=runs/E0_reactive_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_reactive_0/config.yaml --checkpoint runs/E0_reactive_0/last.pt --episodes 100 --set split=test --output runs/E0_reactive_0/eval_test.json"
+  },
+  {
+    "id": "E0_reactive_1",
+    "suite": "E0",
+    "backbone": "reactive",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=reactive seed=1 run_dir=runs/E0_reactive_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_reactive_1/config.yaml --checkpoint runs/E0_reactive_1/last.pt --episodes 100 --set split=test --output runs/E0_reactive_1/eval_test.json"
+  },
+  {
+    "id": "E0_reactive_2",
+    "suite": "E0",
+    "backbone": "reactive",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=reactive seed=2 run_dir=runs/E0_reactive_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_reactive_2/config.yaml --checkpoint runs/E0_reactive_2/last.pt --episodes 100 --set split=test --output runs/E0_reactive_2/eval_test.json"
+  },
+  {
+    "id": "E0_reactive_3",
+    "suite": "E0",
+    "backbone": "reactive",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=reactive seed=3 run_dir=runs/E0_reactive_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_reactive_3/config.yaml --checkpoint runs/E0_reactive_3/last.pt --episodes 100 --set split=test --output runs/E0_reactive_3/eval_test.json"
+  },
+  {
+    "id": "E0_reactive_4",
+    "suite": "E0",
+    "backbone": "reactive",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=reactive seed=4 run_dir=runs/E0_reactive_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_reactive_4/config.yaml --checkpoint runs/E0_reactive_4/last.pt --episodes 100 --set split=test --output runs/E0_reactive_4/eval_test.json"
+  },
+  {
+    "id": "E0_gru_0",
+    "suite": "E0",
+    "backbone": "gru",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=gru seed=0 run_dir=runs/E0_gru_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_gru_0/config.yaml --checkpoint runs/E0_gru_0/last.pt --episodes 100 --set split=test --output runs/E0_gru_0/eval_test.json"
+  },
+  {
+    "id": "E0_gru_1",
+    "suite": "E0",
+    "backbone": "gru",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=gru seed=1 run_dir=runs/E0_gru_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_gru_1/config.yaml --checkpoint runs/E0_gru_1/last.pt --episodes 100 --set split=test --output runs/E0_gru_1/eval_test.json"
+  },
+  {
+    "id": "E0_gru_2",
+    "suite": "E0",
+    "backbone": "gru",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=gru seed=2 run_dir=runs/E0_gru_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_gru_2/config.yaml --checkpoint runs/E0_gru_2/last.pt --episodes 100 --set split=test --output runs/E0_gru_2/eval_test.json"
+  },
+  {
+    "id": "E0_gru_3",
+    "suite": "E0",
+    "backbone": "gru",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=gru seed=3 run_dir=runs/E0_gru_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_gru_3/config.yaml --checkpoint runs/E0_gru_3/last.pt --episodes 100 --set split=test --output runs/E0_gru_3/eval_test.json"
+  },
+  {
+    "id": "E0_gru_4",
+    "suite": "E0",
+    "backbone": "gru",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=gru seed=4 run_dir=runs/E0_gru_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_gru_4/config.yaml --checkpoint runs/E0_gru_4/last.pt --episodes 100 --set split=test --output runs/E0_gru_4/eval_test.json"
+  },
+  {
+    "id": "E0_transformer_0",
+    "suite": "E0",
+    "backbone": "transformer",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=transformer seed=0 run_dir=runs/E0_transformer_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_transformer_0/config.yaml --checkpoint runs/E0_transformer_0/last.pt --episodes 100 --set split=test --output runs/E0_transformer_0/eval_test.json"
+  },
+  {
+    "id": "E0_transformer_1",
+    "suite": "E0",
+    "backbone": "transformer",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=transformer seed=1 run_dir=runs/E0_transformer_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_transformer_1/config.yaml --checkpoint runs/E0_transformer_1/last.pt --episodes 100 --set split=test --output runs/E0_transformer_1/eval_test.json"
+  },
+  {
+    "id": "E0_transformer_2",
+    "suite": "E0",
+    "backbone": "transformer",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=transformer seed=2 run_dir=runs/E0_transformer_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_transformer_2/config.yaml --checkpoint runs/E0_transformer_2/last.pt --episodes 100 --set split=test --output runs/E0_transformer_2/eval_test.json"
+  },
+  {
+    "id": "E0_transformer_3",
+    "suite": "E0",
+    "backbone": "transformer",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=transformer seed=3 run_dir=runs/E0_transformer_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_transformer_3/config.yaml --checkpoint runs/E0_transformer_3/last.pt --episodes 100 --set split=test --output runs/E0_transformer_3/eval_test.json"
+  },
+  {
+    "id": "E0_transformer_4",
+    "suite": "E0",
+    "backbone": "transformer",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=transformer seed=4 run_dir=runs/E0_transformer_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_transformer_4/config.yaml --checkpoint runs/E0_transformer_4/last.pt --episodes 100 --set split=test --output runs/E0_transformer_4/eval_test.json"
+  },
+  {
+    "id": "E0_ttt_0",
+    "suite": "E0",
+    "backbone": "ttt",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=ttt seed=0 run_dir=runs/E0_ttt_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_ttt_0/config.yaml --checkpoint runs/E0_ttt_0/last.pt --episodes 100 --set split=test --output runs/E0_ttt_0/eval_test.json"
+  },
+  {
+    "id": "E0_ttt_1",
+    "suite": "E0",
+    "backbone": "ttt",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=ttt seed=1 run_dir=runs/E0_ttt_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_ttt_1/config.yaml --checkpoint runs/E0_ttt_1/last.pt --episodes 100 --set split=test --output runs/E0_ttt_1/eval_test.json"
+  },
+  {
+    "id": "E0_ttt_2",
+    "suite": "E0",
+    "backbone": "ttt",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=ttt seed=2 run_dir=runs/E0_ttt_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_ttt_2/config.yaml --checkpoint runs/E0_ttt_2/last.pt --episodes 100 --set split=test --output runs/E0_ttt_2/eval_test.json"
+  },
+  {
+    "id": "E0_ttt_3",
+    "suite": "E0",
+    "backbone": "ttt",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=ttt seed=3 run_dir=runs/E0_ttt_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_ttt_3/config.yaml --checkpoint runs/E0_ttt_3/last.pt --episodes 100 --set split=test --output runs/E0_ttt_3/eval_test.json"
+  },
+  {
+    "id": "E0_ttt_4",
+    "suite": "E0",
+    "backbone": "ttt",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E0 backbone=ttt seed=4 run_dir=runs/E0_ttt_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E0_ttt_4/config.yaml --checkpoint runs/E0_ttt_4/last.pt --episodes 100 --set split=test --output runs/E0_ttt_4/eval_test.json"
+  },
+  {
+    "id": "E1_reactive_0",
+    "suite": "E1",
+    "backbone": "reactive",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=reactive seed=0 run_dir=runs/E1_reactive_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_reactive_0/config.yaml --checkpoint runs/E1_reactive_0/last.pt --episodes 100 --set split=test --output runs/E1_reactive_0/eval_test.json"
+  },
+  {
+    "id": "E1_reactive_1",
+    "suite": "E1",
+    "backbone": "reactive",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=reactive seed=1 run_dir=runs/E1_reactive_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_reactive_1/config.yaml --checkpoint runs/E1_reactive_1/last.pt --episodes 100 --set split=test --output runs/E1_reactive_1/eval_test.json"
+  },
+  {
+    "id": "E1_reactive_2",
+    "suite": "E1",
+    "backbone": "reactive",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=reactive seed=2 run_dir=runs/E1_reactive_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_reactive_2/config.yaml --checkpoint runs/E1_reactive_2/last.pt --episodes 100 --set split=test --output runs/E1_reactive_2/eval_test.json"
+  },
+  {
+    "id": "E1_reactive_3",
+    "suite": "E1",
+    "backbone": "reactive",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=reactive seed=3 run_dir=runs/E1_reactive_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_reactive_3/config.yaml --checkpoint runs/E1_reactive_3/last.pt --episodes 100 --set split=test --output runs/E1_reactive_3/eval_test.json"
+  },
+  {
+    "id": "E1_reactive_4",
+    "suite": "E1",
+    "backbone": "reactive",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=reactive seed=4 run_dir=runs/E1_reactive_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_reactive_4/config.yaml --checkpoint runs/E1_reactive_4/last.pt --episodes 100 --set split=test --output runs/E1_reactive_4/eval_test.json"
+  },
+  {
+    "id": "E1_gru_0",
+    "suite": "E1",
+    "backbone": "gru",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=gru seed=0 run_dir=runs/E1_gru_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_gru_0/config.yaml --checkpoint runs/E1_gru_0/last.pt --episodes 100 --set split=test --output runs/E1_gru_0/eval_test.json"
+  },
+  {
+    "id": "E1_gru_1",
+    "suite": "E1",
+    "backbone": "gru",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=gru seed=1 run_dir=runs/E1_gru_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_gru_1/config.yaml --checkpoint runs/E1_gru_1/last.pt --episodes 100 --set split=test --output runs/E1_gru_1/eval_test.json"
+  },
+  {
+    "id": "E1_gru_2",
+    "suite": "E1",
+    "backbone": "gru",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=gru seed=2 run_dir=runs/E1_gru_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_gru_2/config.yaml --checkpoint runs/E1_gru_2/last.pt --episodes 100 --set split=test --output runs/E1_gru_2/eval_test.json"
+  },
+  {
+    "id": "E1_gru_3",
+    "suite": "E1",
+    "backbone": "gru",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=gru seed=3 run_dir=runs/E1_gru_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_gru_3/config.yaml --checkpoint runs/E1_gru_3/last.pt --episodes 100 --set split=test --output runs/E1_gru_3/eval_test.json"
+  },
+  {
+    "id": "E1_gru_4",
+    "suite": "E1",
+    "backbone": "gru",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=gru seed=4 run_dir=runs/E1_gru_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_gru_4/config.yaml --checkpoint runs/E1_gru_4/last.pt --episodes 100 --set split=test --output runs/E1_gru_4/eval_test.json"
+  },
+  {
+    "id": "E1_transformer_0",
+    "suite": "E1",
+    "backbone": "transformer",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=transformer seed=0 run_dir=runs/E1_transformer_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_transformer_0/config.yaml --checkpoint runs/E1_transformer_0/last.pt --episodes 100 --set split=test --output runs/E1_transformer_0/eval_test.json"
+  },
+  {
+    "id": "E1_transformer_1",
+    "suite": "E1",
+    "backbone": "transformer",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=transformer seed=1 run_dir=runs/E1_transformer_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_transformer_1/config.yaml --checkpoint runs/E1_transformer_1/last.pt --episodes 100 --set split=test --output runs/E1_transformer_1/eval_test.json"
+  },
+  {
+    "id": "E1_transformer_2",
+    "suite": "E1",
+    "backbone": "transformer",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=transformer seed=2 run_dir=runs/E1_transformer_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_transformer_2/config.yaml --checkpoint runs/E1_transformer_2/last.pt --episodes 100 --set split=test --output runs/E1_transformer_2/eval_test.json"
+  },
+  {
+    "id": "E1_transformer_3",
+    "suite": "E1",
+    "backbone": "transformer",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=transformer seed=3 run_dir=runs/E1_transformer_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_transformer_3/config.yaml --checkpoint runs/E1_transformer_3/last.pt --episodes 100 --set split=test --output runs/E1_transformer_3/eval_test.json"
+  },
+  {
+    "id": "E1_transformer_4",
+    "suite": "E1",
+    "backbone": "transformer",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=transformer seed=4 run_dir=runs/E1_transformer_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_transformer_4/config.yaml --checkpoint runs/E1_transformer_4/last.pt --episodes 100 --set split=test --output runs/E1_transformer_4/eval_test.json"
+  },
+  {
+    "id": "E1_ttt_0",
+    "suite": "E1",
+    "backbone": "ttt",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=ttt seed=0 run_dir=runs/E1_ttt_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_ttt_0/config.yaml --checkpoint runs/E1_ttt_0/last.pt --episodes 100 --set split=test --output runs/E1_ttt_0/eval_test.json"
+  },
+  {
+    "id": "E1_ttt_1",
+    "suite": "E1",
+    "backbone": "ttt",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=ttt seed=1 run_dir=runs/E1_ttt_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_ttt_1/config.yaml --checkpoint runs/E1_ttt_1/last.pt --episodes 100 --set split=test --output runs/E1_ttt_1/eval_test.json"
+  },
+  {
+    "id": "E1_ttt_2",
+    "suite": "E1",
+    "backbone": "ttt",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=ttt seed=2 run_dir=runs/E1_ttt_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_ttt_2/config.yaml --checkpoint runs/E1_ttt_2/last.pt --episodes 100 --set split=test --output runs/E1_ttt_2/eval_test.json"
+  },
+  {
+    "id": "E1_ttt_3",
+    "suite": "E1",
+    "backbone": "ttt",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=ttt seed=3 run_dir=runs/E1_ttt_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_ttt_3/config.yaml --checkpoint runs/E1_ttt_3/last.pt --episodes 100 --set split=test --output runs/E1_ttt_3/eval_test.json"
+  },
+  {
+    "id": "E1_ttt_4",
+    "suite": "E1",
+    "backbone": "ttt",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E1 backbone=ttt seed=4 run_dir=runs/E1_ttt_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E1_ttt_4/config.yaml --checkpoint runs/E1_ttt_4/last.pt --episodes 100 --set split=test --output runs/E1_ttt_4/eval_test.json"
+  },
+  {
+    "id": "E2_reactive_0",
+    "suite": "E2",
+    "backbone": "reactive",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=reactive seed=0 run_dir=runs/E2_reactive_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_reactive_0/config.yaml --checkpoint runs/E2_reactive_0/last.pt --episodes 100 --set split=test --output runs/E2_reactive_0/eval_test.json"
+  },
+  {
+    "id": "E2_reactive_1",
+    "suite": "E2",
+    "backbone": "reactive",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=reactive seed=1 run_dir=runs/E2_reactive_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_reactive_1/config.yaml --checkpoint runs/E2_reactive_1/last.pt --episodes 100 --set split=test --output runs/E2_reactive_1/eval_test.json"
+  },
+  {
+    "id": "E2_reactive_2",
+    "suite": "E2",
+    "backbone": "reactive",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=reactive seed=2 run_dir=runs/E2_reactive_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_reactive_2/config.yaml --checkpoint runs/E2_reactive_2/last.pt --episodes 100 --set split=test --output runs/E2_reactive_2/eval_test.json"
+  },
+  {
+    "id": "E2_reactive_3",
+    "suite": "E2",
+    "backbone": "reactive",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=reactive seed=3 run_dir=runs/E2_reactive_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_reactive_3/config.yaml --checkpoint runs/E2_reactive_3/last.pt --episodes 100 --set split=test --output runs/E2_reactive_3/eval_test.json"
+  },
+  {
+    "id": "E2_reactive_4",
+    "suite": "E2",
+    "backbone": "reactive",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=reactive seed=4 run_dir=runs/E2_reactive_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_reactive_4/config.yaml --checkpoint runs/E2_reactive_4/last.pt --episodes 100 --set split=test --output runs/E2_reactive_4/eval_test.json"
+  },
+  {
+    "id": "E2_gru_0",
+    "suite": "E2",
+    "backbone": "gru",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=gru seed=0 run_dir=runs/E2_gru_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_gru_0/config.yaml --checkpoint runs/E2_gru_0/last.pt --episodes 100 --set split=test --output runs/E2_gru_0/eval_test.json"
+  },
+  {
+    "id": "E2_gru_1",
+    "suite": "E2",
+    "backbone": "gru",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=gru seed=1 run_dir=runs/E2_gru_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_gru_1/config.yaml --checkpoint runs/E2_gru_1/last.pt --episodes 100 --set split=test --output runs/E2_gru_1/eval_test.json"
+  },
+  {
+    "id": "E2_gru_2",
+    "suite": "E2",
+    "backbone": "gru",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=gru seed=2 run_dir=runs/E2_gru_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_gru_2/config.yaml --checkpoint runs/E2_gru_2/last.pt --episodes 100 --set split=test --output runs/E2_gru_2/eval_test.json"
+  },
+  {
+    "id": "E2_gru_3",
+    "suite": "E2",
+    "backbone": "gru",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=gru seed=3 run_dir=runs/E2_gru_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_gru_3/config.yaml --checkpoint runs/E2_gru_3/last.pt --episodes 100 --set split=test --output runs/E2_gru_3/eval_test.json"
+  },
+  {
+    "id": "E2_gru_4",
+    "suite": "E2",
+    "backbone": "gru",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=gru seed=4 run_dir=runs/E2_gru_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_gru_4/config.yaml --checkpoint runs/E2_gru_4/last.pt --episodes 100 --set split=test --output runs/E2_gru_4/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_0",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=0 run_dir=runs/E2_transformer_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_0/config.yaml --checkpoint runs/E2_transformer_0/last.pt --episodes 100 --set split=test --output runs/E2_transformer_0/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_1",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=1 run_dir=runs/E2_transformer_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_1/config.yaml --checkpoint runs/E2_transformer_1/last.pt --episodes 100 --set split=test --output runs/E2_transformer_1/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_2",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=2 run_dir=runs/E2_transformer_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_2/config.yaml --checkpoint runs/E2_transformer_2/last.pt --episodes 100 --set split=test --output runs/E2_transformer_2/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_3",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=3 run_dir=runs/E2_transformer_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_3/config.yaml --checkpoint runs/E2_transformer_3/last.pt --episodes 100 --set split=test --output runs/E2_transformer_3/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_4",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=4 run_dir=runs/E2_transformer_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_4/config.yaml --checkpoint runs/E2_transformer_4/last.pt --episodes 100 --set split=test --output runs/E2_transformer_4/eval_test.json"
+  },
+  {
+    "id": "E2_ttt_0",
+    "suite": "E2",
+    "backbone": "ttt",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=ttt seed=0 run_dir=runs/E2_ttt_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_ttt_0/config.yaml --checkpoint runs/E2_ttt_0/last.pt --episodes 100 --set split=test --output runs/E2_ttt_0/eval_test.json"
+  },
+  {
+    "id": "E2_ttt_1",
+    "suite": "E2",
+    "backbone": "ttt",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=ttt seed=1 run_dir=runs/E2_ttt_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_ttt_1/config.yaml --checkpoint runs/E2_ttt_1/last.pt --episodes 100 --set split=test --output runs/E2_ttt_1/eval_test.json"
+  },
+  {
+    "id": "E2_ttt_2",
+    "suite": "E2",
+    "backbone": "ttt",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=ttt seed=2 run_dir=runs/E2_ttt_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_ttt_2/config.yaml --checkpoint runs/E2_ttt_2/last.pt --episodes 100 --set split=test --output runs/E2_ttt_2/eval_test.json"
+  },
+  {
+    "id": "E2_ttt_3",
+    "suite": "E2",
+    "backbone": "ttt",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=ttt seed=3 run_dir=runs/E2_ttt_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_ttt_3/config.yaml --checkpoint runs/E2_ttt_3/last.pt --episodes 100 --set split=test --output runs/E2_ttt_3/eval_test.json"
+  },
+  {
+    "id": "E2_ttt_4",
+    "suite": "E2",
+    "backbone": "ttt",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=ttt seed=4 run_dir=runs/E2_ttt_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_ttt_4/config.yaml --checkpoint runs/E2_ttt_4/last.pt --episodes 100 --set split=test --output runs/E2_ttt_4/eval_test.json"
+  },
+  {
+    "id": "E3_reactive_0",
+    "suite": "E3",
+    "backbone": "reactive",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=reactive seed=0 run_dir=runs/E3_reactive_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_reactive_0/config.yaml --checkpoint runs/E3_reactive_0/last.pt --episodes 100 --set split=test --output runs/E3_reactive_0/eval_test.json"
+  },
+  {
+    "id": "E3_reactive_1",
+    "suite": "E3",
+    "backbone": "reactive",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=reactive seed=1 run_dir=runs/E3_reactive_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_reactive_1/config.yaml --checkpoint runs/E3_reactive_1/last.pt --episodes 100 --set split=test --output runs/E3_reactive_1/eval_test.json"
+  },
+  {
+    "id": "E3_reactive_2",
+    "suite": "E3",
+    "backbone": "reactive",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=reactive seed=2 run_dir=runs/E3_reactive_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_reactive_2/config.yaml --checkpoint runs/E3_reactive_2/last.pt --episodes 100 --set split=test --output runs/E3_reactive_2/eval_test.json"
+  },
+  {
+    "id": "E3_reactive_3",
+    "suite": "E3",
+    "backbone": "reactive",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=reactive seed=3 run_dir=runs/E3_reactive_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_reactive_3/config.yaml --checkpoint runs/E3_reactive_3/last.pt --episodes 100 --set split=test --output runs/E3_reactive_3/eval_test.json"
+  },
+  {
+    "id": "E3_reactive_4",
+    "suite": "E3",
+    "backbone": "reactive",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=reactive seed=4 run_dir=runs/E3_reactive_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_reactive_4/config.yaml --checkpoint runs/E3_reactive_4/last.pt --episodes 100 --set split=test --output runs/E3_reactive_4/eval_test.json"
+  },
+  {
+    "id": "E3_gru_0",
+    "suite": "E3",
+    "backbone": "gru",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=gru seed=0 run_dir=runs/E3_gru_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_gru_0/config.yaml --checkpoint runs/E3_gru_0/last.pt --episodes 100 --set split=test --output runs/E3_gru_0/eval_test.json"
+  },
+  {
+    "id": "E3_gru_1",
+    "suite": "E3",
+    "backbone": "gru",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=gru seed=1 run_dir=runs/E3_gru_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_gru_1/config.yaml --checkpoint runs/E3_gru_1/last.pt --episodes 100 --set split=test --output runs/E3_gru_1/eval_test.json"
+  },
+  {
+    "id": "E3_gru_2",
+    "suite": "E3",
+    "backbone": "gru",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=gru seed=2 run_dir=runs/E3_gru_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_gru_2/config.yaml --checkpoint runs/E3_gru_2/last.pt --episodes 100 --set split=test --output runs/E3_gru_2/eval_test.json"
+  },
+  {
+    "id": "E3_gru_3",
+    "suite": "E3",
+    "backbone": "gru",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=gru seed=3 run_dir=runs/E3_gru_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_gru_3/config.yaml --checkpoint runs/E3_gru_3/last.pt --episodes 100 --set split=test --output runs/E3_gru_3/eval_test.json"
+  },
+  {
+    "id": "E3_gru_4",
+    "suite": "E3",
+    "backbone": "gru",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=gru seed=4 run_dir=runs/E3_gru_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_gru_4/config.yaml --checkpoint runs/E3_gru_4/last.pt --episodes 100 --set split=test --output runs/E3_gru_4/eval_test.json"
+  },
+  {
+    "id": "E3_transformer_0",
+    "suite": "E3",
+    "backbone": "transformer",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=transformer seed=0 run_dir=runs/E3_transformer_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_transformer_0/config.yaml --checkpoint runs/E3_transformer_0/last.pt --episodes 100 --set split=test --output runs/E3_transformer_0/eval_test.json"
+  },
+  {
+    "id": "E3_transformer_1",
+    "suite": "E3",
+    "backbone": "transformer",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=transformer seed=1 run_dir=runs/E3_transformer_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_transformer_1/config.yaml --checkpoint runs/E3_transformer_1/last.pt --episodes 100 --set split=test --output runs/E3_transformer_1/eval_test.json"
+  },
+  {
+    "id": "E3_transformer_2",
+    "suite": "E3",
+    "backbone": "transformer",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=transformer seed=2 run_dir=runs/E3_transformer_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_transformer_2/config.yaml --checkpoint runs/E3_transformer_2/last.pt --episodes 100 --set split=test --output runs/E3_transformer_2/eval_test.json"
+  },
+  {
+    "id": "E3_transformer_3",
+    "suite": "E3",
+    "backbone": "transformer",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=transformer seed=3 run_dir=runs/E3_transformer_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_transformer_3/config.yaml --checkpoint runs/E3_transformer_3/last.pt --episodes 100 --set split=test --output runs/E3_transformer_3/eval_test.json"
+  },
+  {
+    "id": "E3_transformer_4",
+    "suite": "E3",
+    "backbone": "transformer",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=transformer seed=4 run_dir=runs/E3_transformer_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_transformer_4/config.yaml --checkpoint runs/E3_transformer_4/last.pt --episodes 100 --set split=test --output runs/E3_transformer_4/eval_test.json"
+  },
+  {
+    "id": "E3_ttt_0",
+    "suite": "E3",
+    "backbone": "ttt",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=ttt seed=0 run_dir=runs/E3_ttt_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_ttt_0/config.yaml --checkpoint runs/E3_ttt_0/last.pt --episodes 100 --set split=test --output runs/E3_ttt_0/eval_test.json"
+  },
+  {
+    "id": "E3_ttt_1",
+    "suite": "E3",
+    "backbone": "ttt",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=ttt seed=1 run_dir=runs/E3_ttt_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_ttt_1/config.yaml --checkpoint runs/E3_ttt_1/last.pt --episodes 100 --set split=test --output runs/E3_ttt_1/eval_test.json"
+  },
+  {
+    "id": "E3_ttt_2",
+    "suite": "E3",
+    "backbone": "ttt",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=ttt seed=2 run_dir=runs/E3_ttt_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_ttt_2/config.yaml --checkpoint runs/E3_ttt_2/last.pt --episodes 100 --set split=test --output runs/E3_ttt_2/eval_test.json"
+  },
+  {
+    "id": "E3_ttt_3",
+    "suite": "E3",
+    "backbone": "ttt",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=ttt seed=3 run_dir=runs/E3_ttt_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_ttt_3/config.yaml --checkpoint runs/E3_ttt_3/last.pt --episodes 100 --set split=test --output runs/E3_ttt_3/eval_test.json"
+  },
+  {
+    "id": "E3_ttt_4",
+    "suite": "E3",
+    "backbone": "ttt",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E3 backbone=ttt seed=4 run_dir=runs/E3_ttt_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E3_ttt_4/config.yaml --checkpoint runs/E3_ttt_4/last.pt --episodes 100 --set split=test --output runs/E3_ttt_4/eval_test.json"
+  },
+  {
+    "id": "E7_reactive_0",
+    "suite": "E7",
+    "backbone": "reactive",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=reactive seed=0 run_dir=runs/E7_reactive_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_reactive_0/config.yaml --checkpoint runs/E7_reactive_0/last.pt --episodes 100 --set split=test --output runs/E7_reactive_0/eval_test.json"
+  },
+  {
+    "id": "E7_reactive_1",
+    "suite": "E7",
+    "backbone": "reactive",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=reactive seed=1 run_dir=runs/E7_reactive_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_reactive_1/config.yaml --checkpoint runs/E7_reactive_1/last.pt --episodes 100 --set split=test --output runs/E7_reactive_1/eval_test.json"
+  },
+  {
+    "id": "E7_reactive_2",
+    "suite": "E7",
+    "backbone": "reactive",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=reactive seed=2 run_dir=runs/E7_reactive_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_reactive_2/config.yaml --checkpoint runs/E7_reactive_2/last.pt --episodes 100 --set split=test --output runs/E7_reactive_2/eval_test.json"
+  },
+  {
+    "id": "E7_reactive_3",
+    "suite": "E7",
+    "backbone": "reactive",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=reactive seed=3 run_dir=runs/E7_reactive_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_reactive_3/config.yaml --checkpoint runs/E7_reactive_3/last.pt --episodes 100 --set split=test --output runs/E7_reactive_3/eval_test.json"
+  },
+  {
+    "id": "E7_reactive_4",
+    "suite": "E7",
+    "backbone": "reactive",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=reactive seed=4 run_dir=runs/E7_reactive_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_reactive_4/config.yaml --checkpoint runs/E7_reactive_4/last.pt --episodes 100 --set split=test --output runs/E7_reactive_4/eval_test.json"
+  },
+  {
+    "id": "E7_gru_0",
+    "suite": "E7",
+    "backbone": "gru",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=gru seed=0 run_dir=runs/E7_gru_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_gru_0/config.yaml --checkpoint runs/E7_gru_0/last.pt --episodes 100 --set split=test --output runs/E7_gru_0/eval_test.json"
+  },
+  {
+    "id": "E7_gru_1",
+    "suite": "E7",
+    "backbone": "gru",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=gru seed=1 run_dir=runs/E7_gru_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_gru_1/config.yaml --checkpoint runs/E7_gru_1/last.pt --episodes 100 --set split=test --output runs/E7_gru_1/eval_test.json"
+  },
+  {
+    "id": "E7_gru_2",
+    "suite": "E7",
+    "backbone": "gru",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=gru seed=2 run_dir=runs/E7_gru_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_gru_2/config.yaml --checkpoint runs/E7_gru_2/last.pt --episodes 100 --set split=test --output runs/E7_gru_2/eval_test.json"
+  },
+  {
+    "id": "E7_gru_3",
+    "suite": "E7",
+    "backbone": "gru",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=gru seed=3 run_dir=runs/E7_gru_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_gru_3/config.yaml --checkpoint runs/E7_gru_3/last.pt --episodes 100 --set split=test --output runs/E7_gru_3/eval_test.json"
+  },
+  {
+    "id": "E7_gru_4",
+    "suite": "E7",
+    "backbone": "gru",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=gru seed=4 run_dir=runs/E7_gru_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_gru_4/config.yaml --checkpoint runs/E7_gru_4/last.pt --episodes 100 --set split=test --output runs/E7_gru_4/eval_test.json"
+  },
+  {
+    "id": "E7_transformer_0",
+    "suite": "E7",
+    "backbone": "transformer",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=transformer seed=0 run_dir=runs/E7_transformer_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_transformer_0/config.yaml --checkpoint runs/E7_transformer_0/last.pt --episodes 100 --set split=test --output runs/E7_transformer_0/eval_test.json"
+  },
+  {
+    "id": "E7_transformer_1",
+    "suite": "E7",
+    "backbone": "transformer",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=transformer seed=1 run_dir=runs/E7_transformer_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_transformer_1/config.yaml --checkpoint runs/E7_transformer_1/last.pt --episodes 100 --set split=test --output runs/E7_transformer_1/eval_test.json"
+  },
+  {
+    "id": "E7_transformer_2",
+    "suite": "E7",
+    "backbone": "transformer",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=transformer seed=2 run_dir=runs/E7_transformer_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_transformer_2/config.yaml --checkpoint runs/E7_transformer_2/last.pt --episodes 100 --set split=test --output runs/E7_transformer_2/eval_test.json"
+  },
+  {
+    "id": "E7_transformer_3",
+    "suite": "E7",
+    "backbone": "transformer",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=transformer seed=3 run_dir=runs/E7_transformer_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_transformer_3/config.yaml --checkpoint runs/E7_transformer_3/last.pt --episodes 100 --set split=test --output runs/E7_transformer_3/eval_test.json"
+  },
+  {
+    "id": "E7_transformer_4",
+    "suite": "E7",
+    "backbone": "transformer",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=transformer seed=4 run_dir=runs/E7_transformer_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_transformer_4/config.yaml --checkpoint runs/E7_transformer_4/last.pt --episodes 100 --set split=test --output runs/E7_transformer_4/eval_test.json"
+  },
+  {
+    "id": "E7_ttt_0",
+    "suite": "E7",
+    "backbone": "ttt",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=ttt seed=0 run_dir=runs/E7_ttt_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_ttt_0/config.yaml --checkpoint runs/E7_ttt_0/last.pt --episodes 100 --set split=test --output runs/E7_ttt_0/eval_test.json"
+  },
+  {
+    "id": "E7_ttt_1",
+    "suite": "E7",
+    "backbone": "ttt",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=ttt seed=1 run_dir=runs/E7_ttt_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_ttt_1/config.yaml --checkpoint runs/E7_ttt_1/last.pt --episodes 100 --set split=test --output runs/E7_ttt_1/eval_test.json"
+  },
+  {
+    "id": "E7_ttt_2",
+    "suite": "E7",
+    "backbone": "ttt",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=ttt seed=2 run_dir=runs/E7_ttt_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_ttt_2/config.yaml --checkpoint runs/E7_ttt_2/last.pt --episodes 100 --set split=test --output runs/E7_ttt_2/eval_test.json"
+  },
+  {
+    "id": "E7_ttt_3",
+    "suite": "E7",
+    "backbone": "ttt",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=ttt seed=3 run_dir=runs/E7_ttt_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_ttt_3/config.yaml --checkpoint runs/E7_ttt_3/last.pt --episodes 100 --set split=test --output runs/E7_ttt_3/eval_test.json"
+  },
+  {
+    "id": "E7_ttt_4",
+    "suite": "E7",
+    "backbone": "ttt",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E7 backbone=ttt seed=4 run_dir=runs/E7_ttt_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E7_ttt_4/config.yaml --checkpoint runs/E7_ttt_4/last.pt --episodes 100 --set split=test --output runs/E7_ttt_4/eval_test.json"
+  },
+  {
+    "id": "E9_reactive_0",
+    "suite": "E9",
+    "backbone": "reactive",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=reactive seed=0 run_dir=runs/E9_reactive_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_reactive_0/config.yaml --checkpoint runs/E9_reactive_0/last.pt --episodes 100 --set split=test --output runs/E9_reactive_0/eval_test.json"
+  },
+  {
+    "id": "E9_reactive_1",
+    "suite": "E9",
+    "backbone": "reactive",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=reactive seed=1 run_dir=runs/E9_reactive_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_reactive_1/config.yaml --checkpoint runs/E9_reactive_1/last.pt --episodes 100 --set split=test --output runs/E9_reactive_1/eval_test.json"
+  },
+  {
+    "id": "E9_reactive_2",
+    "suite": "E9",
+    "backbone": "reactive",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=reactive seed=2 run_dir=runs/E9_reactive_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_reactive_2/config.yaml --checkpoint runs/E9_reactive_2/last.pt --episodes 100 --set split=test --output runs/E9_reactive_2/eval_test.json"
+  },
+  {
+    "id": "E9_reactive_3",
+    "suite": "E9",
+    "backbone": "reactive",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=reactive seed=3 run_dir=runs/E9_reactive_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_reactive_3/config.yaml --checkpoint runs/E9_reactive_3/last.pt --episodes 100 --set split=test --output runs/E9_reactive_3/eval_test.json"
+  },
+  {
+    "id": "E9_reactive_4",
+    "suite": "E9",
+    "backbone": "reactive",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=reactive seed=4 run_dir=runs/E9_reactive_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_reactive_4/config.yaml --checkpoint runs/E9_reactive_4/last.pt --episodes 100 --set split=test --output runs/E9_reactive_4/eval_test.json"
+  },
+  {
+    "id": "E9_gru_0",
+    "suite": "E9",
+    "backbone": "gru",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=gru seed=0 run_dir=runs/E9_gru_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_gru_0/config.yaml --checkpoint runs/E9_gru_0/last.pt --episodes 100 --set split=test --output runs/E9_gru_0/eval_test.json"
+  },
+  {
+    "id": "E9_gru_1",
+    "suite": "E9",
+    "backbone": "gru",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=gru seed=1 run_dir=runs/E9_gru_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_gru_1/config.yaml --checkpoint runs/E9_gru_1/last.pt --episodes 100 --set split=test --output runs/E9_gru_1/eval_test.json"
+  },
+  {
+    "id": "E9_gru_2",
+    "suite": "E9",
+    "backbone": "gru",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=gru seed=2 run_dir=runs/E9_gru_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_gru_2/config.yaml --checkpoint runs/E9_gru_2/last.pt --episodes 100 --set split=test --output runs/E9_gru_2/eval_test.json"
+  },
+  {
+    "id": "E9_gru_3",
+    "suite": "E9",
+    "backbone": "gru",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=gru seed=3 run_dir=runs/E9_gru_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_gru_3/config.yaml --checkpoint runs/E9_gru_3/last.pt --episodes 100 --set split=test --output runs/E9_gru_3/eval_test.json"
+  },
+  {
+    "id": "E9_gru_4",
+    "suite": "E9",
+    "backbone": "gru",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=gru seed=4 run_dir=runs/E9_gru_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_gru_4/config.yaml --checkpoint runs/E9_gru_4/last.pt --episodes 100 --set split=test --output runs/E9_gru_4/eval_test.json"
+  },
+  {
+    "id": "E9_transformer_0",
+    "suite": "E9",
+    "backbone": "transformer",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=transformer seed=0 run_dir=runs/E9_transformer_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_transformer_0/config.yaml --checkpoint runs/E9_transformer_0/last.pt --episodes 100 --set split=test --output runs/E9_transformer_0/eval_test.json"
+  },
+  {
+    "id": "E9_transformer_1",
+    "suite": "E9",
+    "backbone": "transformer",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=transformer seed=1 run_dir=runs/E9_transformer_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_transformer_1/config.yaml --checkpoint runs/E9_transformer_1/last.pt --episodes 100 --set split=test --output runs/E9_transformer_1/eval_test.json"
+  },
+  {
+    "id": "E9_transformer_2",
+    "suite": "E9",
+    "backbone": "transformer",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=transformer seed=2 run_dir=runs/E9_transformer_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_transformer_2/config.yaml --checkpoint runs/E9_transformer_2/last.pt --episodes 100 --set split=test --output runs/E9_transformer_2/eval_test.json"
+  },
+  {
+    "id": "E9_transformer_3",
+    "suite": "E9",
+    "backbone": "transformer",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=transformer seed=3 run_dir=runs/E9_transformer_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_transformer_3/config.yaml --checkpoint runs/E9_transformer_3/last.pt --episodes 100 --set split=test --output runs/E9_transformer_3/eval_test.json"
+  },
+  {
+    "id": "E9_transformer_4",
+    "suite": "E9",
+    "backbone": "transformer",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=transformer seed=4 run_dir=runs/E9_transformer_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_transformer_4/config.yaml --checkpoint runs/E9_transformer_4/last.pt --episodes 100 --set split=test --output runs/E9_transformer_4/eval_test.json"
+  },
+  {
+    "id": "E9_ttt_0",
+    "suite": "E9",
+    "backbone": "ttt",
+    "seed": 0,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=ttt seed=0 run_dir=runs/E9_ttt_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_ttt_0/config.yaml --checkpoint runs/E9_ttt_0/last.pt --episodes 100 --set split=test --output runs/E9_ttt_0/eval_test.json"
+  },
+  {
+    "id": "E9_ttt_1",
+    "suite": "E9",
+    "backbone": "ttt",
+    "seed": 1,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=ttt seed=1 run_dir=runs/E9_ttt_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_ttt_1/config.yaml --checkpoint runs/E9_ttt_1/last.pt --episodes 100 --set split=test --output runs/E9_ttt_1/eval_test.json"
+  },
+  {
+    "id": "E9_ttt_2",
+    "suite": "E9",
+    "backbone": "ttt",
+    "seed": 2,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=ttt seed=2 run_dir=runs/E9_ttt_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_ttt_2/config.yaml --checkpoint runs/E9_ttt_2/last.pt --episodes 100 --set split=test --output runs/E9_ttt_2/eval_test.json"
+  },
+  {
+    "id": "E9_ttt_3",
+    "suite": "E9",
+    "backbone": "ttt",
+    "seed": 3,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=ttt seed=3 run_dir=runs/E9_ttt_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_ttt_3/config.yaml --checkpoint runs/E9_ttt_3/last.pt --episodes 100 --set split=test --output runs/E9_ttt_3/eval_test.json"
+  },
+  {
+    "id": "E9_ttt_4",
+    "suite": "E9",
+    "backbone": "ttt",
+    "seed": 4,
+    "kind": "architecture",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E9 backbone=ttt seed=4 run_dir=runs/E9_ttt_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E9_ttt_4/config.yaml --checkpoint runs/E9_ttt_4/last.pt --episodes 100 --set split=test --output runs/E9_ttt_4/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_no_map_0",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 0,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=0 use_map=false run_dir=runs/E2_transformer_no_map_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_no_map_0/config.yaml --checkpoint runs/E2_transformer_no_map_0/last.pt --episodes 100 --set split=test --output runs/E2_transformer_no_map_0/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_no_map_1",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 1,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=1 use_map=false run_dir=runs/E2_transformer_no_map_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_no_map_1/config.yaml --checkpoint runs/E2_transformer_no_map_1/last.pt --episodes 100 --set split=test --output runs/E2_transformer_no_map_1/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_no_map_2",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 2,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=2 use_map=false run_dir=runs/E2_transformer_no_map_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_no_map_2/config.yaml --checkpoint runs/E2_transformer_no_map_2/last.pt --episodes 100 --set split=test --output runs/E2_transformer_no_map_2/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_no_map_3",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 3,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=3 use_map=false run_dir=runs/E2_transformer_no_map_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_no_map_3/config.yaml --checkpoint runs/E2_transformer_no_map_3/last.pt --episodes 100 --set split=test --output runs/E2_transformer_no_map_3/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_no_map_4",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 4,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=4 use_map=false run_dir=runs/E2_transformer_no_map_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_no_map_4/config.yaml --checkpoint runs/E2_transformer_no_map_4/last.pt --episodes 100 --set split=test --output runs/E2_transformer_no_map_4/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_no_object_0",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 0,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=0 use_object=false run_dir=runs/E2_transformer_no_object_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_no_object_0/config.yaml --checkpoint runs/E2_transformer_no_object_0/last.pt --episodes 100 --set split=test --output runs/E2_transformer_no_object_0/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_no_object_1",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 1,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=1 use_object=false run_dir=runs/E2_transformer_no_object_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_no_object_1/config.yaml --checkpoint runs/E2_transformer_no_object_1/last.pt --episodes 100 --set split=test --output runs/E2_transformer_no_object_1/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_no_object_2",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 2,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=2 use_object=false run_dir=runs/E2_transformer_no_object_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_no_object_2/config.yaml --checkpoint runs/E2_transformer_no_object_2/last.pt --episodes 100 --set split=test --output runs/E2_transformer_no_object_2/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_no_object_3",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 3,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=3 use_object=false run_dir=runs/E2_transformer_no_object_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_no_object_3/config.yaml --checkpoint runs/E2_transformer_no_object_3/last.pt --episodes 100 --set split=test --output runs/E2_transformer_no_object_3/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_no_object_4",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 4,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=4 use_object=false run_dir=runs/E2_transformer_no_object_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_no_object_4/config.yaml --checkpoint runs/E2_transformer_no_object_4/last.pt --episodes 100 --set split=test --output runs/E2_transformer_no_object_4/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_no_feedback_0",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 0,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=0 use_feedback=false run_dir=runs/E2_transformer_no_feedback_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_no_feedback_0/config.yaml --checkpoint runs/E2_transformer_no_feedback_0/last.pt --episodes 100 --set split=test --output runs/E2_transformer_no_feedback_0/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_no_feedback_1",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 1,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=1 use_feedback=false run_dir=runs/E2_transformer_no_feedback_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_no_feedback_1/config.yaml --checkpoint runs/E2_transformer_no_feedback_1/last.pt --episodes 100 --set split=test --output runs/E2_transformer_no_feedback_1/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_no_feedback_2",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 2,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=2 use_feedback=false run_dir=runs/E2_transformer_no_feedback_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_no_feedback_2/config.yaml --checkpoint runs/E2_transformer_no_feedback_2/last.pt --episodes 100 --set split=test --output runs/E2_transformer_no_feedback_2/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_no_feedback_3",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 3,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=3 use_feedback=false run_dir=runs/E2_transformer_no_feedback_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_no_feedback_3/config.yaml --checkpoint runs/E2_transformer_no_feedback_3/last.pt --episodes 100 --set split=test --output runs/E2_transformer_no_feedback_3/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_no_feedback_4",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 4,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=4 use_feedback=false run_dir=runs/E2_transformer_no_feedback_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_no_feedback_4/config.yaml --checkpoint runs/E2_transformer_no_feedback_4/last.pt --episodes 100 --set split=test --output runs/E2_transformer_no_feedback_4/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_observable_critic_0",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 0,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=0 privileged_critic=false run_dir=runs/E2_transformer_observable_critic_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_observable_critic_0/config.yaml --checkpoint runs/E2_transformer_observable_critic_0/last.pt --episodes 100 --set split=test --output runs/E2_transformer_observable_critic_0/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_observable_critic_1",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 1,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=1 privileged_critic=false run_dir=runs/E2_transformer_observable_critic_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_observable_critic_1/config.yaml --checkpoint runs/E2_transformer_observable_critic_1/last.pt --episodes 100 --set split=test --output runs/E2_transformer_observable_critic_1/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_observable_critic_2",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 2,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=2 privileged_critic=false run_dir=runs/E2_transformer_observable_critic_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_observable_critic_2/config.yaml --checkpoint runs/E2_transformer_observable_critic_2/last.pt --episodes 100 --set split=test --output runs/E2_transformer_observable_critic_2/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_observable_critic_3",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 3,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=3 privileged_critic=false run_dir=runs/E2_transformer_observable_critic_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_observable_critic_3/config.yaml --checkpoint runs/E2_transformer_observable_critic_3/last.pt --episodes 100 --set split=test --output runs/E2_transformer_observable_critic_3/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_observable_critic_4",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 4,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=4 privileged_critic=false run_dir=runs/E2_transformer_observable_critic_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_observable_critic_4/config.yaml --checkpoint runs/E2_transformer_observable_critic_4/last.pt --episodes 100 --set split=test --output runs/E2_transformer_observable_critic_4/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_history_1_0",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 0,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=0 history_length=1 run_dir=runs/E2_transformer_history_1_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_history_1_0/config.yaml --checkpoint runs/E2_transformer_history_1_0/last.pt --episodes 100 --set split=test --output runs/E2_transformer_history_1_0/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_history_1_1",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 1,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=1 history_length=1 run_dir=runs/E2_transformer_history_1_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_history_1_1/config.yaml --checkpoint runs/E2_transformer_history_1_1/last.pt --episodes 100 --set split=test --output runs/E2_transformer_history_1_1/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_history_1_2",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 2,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=2 history_length=1 run_dir=runs/E2_transformer_history_1_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_history_1_2/config.yaml --checkpoint runs/E2_transformer_history_1_2/last.pt --episodes 100 --set split=test --output runs/E2_transformer_history_1_2/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_history_1_3",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 3,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=3 history_length=1 run_dir=runs/E2_transformer_history_1_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_history_1_3/config.yaml --checkpoint runs/E2_transformer_history_1_3/last.pt --episodes 100 --set split=test --output runs/E2_transformer_history_1_3/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_history_1_4",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 4,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=4 history_length=1 run_dir=runs/E2_transformer_history_1_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_history_1_4/config.yaml --checkpoint runs/E2_transformer_history_1_4/last.pt --episodes 100 --set split=test --output runs/E2_transformer_history_1_4/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_time_cost_low_0",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 0,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=0 time_cost=0.005 run_dir=runs/E2_transformer_time_cost_low_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_time_cost_low_0/config.yaml --checkpoint runs/E2_transformer_time_cost_low_0/last.pt --episodes 100 --set split=test --output runs/E2_transformer_time_cost_low_0/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_time_cost_low_1",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 1,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=1 time_cost=0.005 run_dir=runs/E2_transformer_time_cost_low_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_time_cost_low_1/config.yaml --checkpoint runs/E2_transformer_time_cost_low_1/last.pt --episodes 100 --set split=test --output runs/E2_transformer_time_cost_low_1/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_time_cost_low_2",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 2,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=2 time_cost=0.005 run_dir=runs/E2_transformer_time_cost_low_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_time_cost_low_2/config.yaml --checkpoint runs/E2_transformer_time_cost_low_2/last.pt --episodes 100 --set split=test --output runs/E2_transformer_time_cost_low_2/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_time_cost_low_3",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 3,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=3 time_cost=0.005 run_dir=runs/E2_transformer_time_cost_low_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_time_cost_low_3/config.yaml --checkpoint runs/E2_transformer_time_cost_low_3/last.pt --episodes 100 --set split=test --output runs/E2_transformer_time_cost_low_3/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_time_cost_low_4",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 4,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=4 time_cost=0.005 run_dir=runs/E2_transformer_time_cost_low_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_time_cost_low_4/config.yaml --checkpoint runs/E2_transformer_time_cost_low_4/last.pt --episodes 100 --set split=test --output runs/E2_transformer_time_cost_low_4/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_time_cost_high_0",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 0,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=0 time_cost=0.08 run_dir=runs/E2_transformer_time_cost_high_0",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_time_cost_high_0/config.yaml --checkpoint runs/E2_transformer_time_cost_high_0/last.pt --episodes 100 --set split=test --output runs/E2_transformer_time_cost_high_0/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_time_cost_high_1",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 1,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=1 time_cost=0.08 run_dir=runs/E2_transformer_time_cost_high_1",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_time_cost_high_1/config.yaml --checkpoint runs/E2_transformer_time_cost_high_1/last.pt --episodes 100 --set split=test --output runs/E2_transformer_time_cost_high_1/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_time_cost_high_2",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 2,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=2 time_cost=0.08 run_dir=runs/E2_transformer_time_cost_high_2",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_time_cost_high_2/config.yaml --checkpoint runs/E2_transformer_time_cost_high_2/last.pt --episodes 100 --set split=test --output runs/E2_transformer_time_cost_high_2/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_time_cost_high_3",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 3,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=3 time_cost=0.08 run_dir=runs/E2_transformer_time_cost_high_3",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_time_cost_high_3/config.yaml --checkpoint runs/E2_transformer_time_cost_high_3/last.pt --episodes 100 --set split=test --output runs/E2_transformer_time_cost_high_3/eval_test.json"
+  },
+  {
+    "id": "E2_transformer_time_cost_high_4",
+    "suite": "E2",
+    "backbone": "transformer",
+    "seed": 4,
+    "kind": "ablation",
+    "status": "planned",
+    "train_command": "./scripts/run.sh train --config configs/default.yaml --set suite=E2 backbone=transformer seed=4 time_cost=0.08 run_dir=runs/E2_transformer_time_cost_high_4",
+    "eval_command": "./scripts/run.sh eval --config runs/E2_transformer_time_cost_high_4/config.yaml --checkpoint runs/E2_transformer_time_cost_high_4/last.pt --episodes 100 --set split=test --output runs/E2_transformer_time_cost_high_4/eval_test.json"
+  }
+]

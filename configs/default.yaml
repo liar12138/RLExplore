@@ -1,0 +1,22 @@
+# Production-shaped upper-policy config; SONIC remains frozen.
+backend: sonic
+simulator: mjlab
+suite: E2
+split: train
+seed: 0
+backbone: transformer
+hidden_dim: 128
+layers: 2
+heads: 4
+history_length: 16
+image_width: 96
+image_height: 72
+max_candidates: 16
+max_decisions: 24
+time_budget: 60.0
+device: cuda
+updates: 100
+rollout_steps: 64
+ppo_epochs: 4
+minibatch: 16
+run_dir: runs/transformer
